@@ -12,17 +12,17 @@ const seedTodos = async () => {
       {
         title: "Handla mat",
         description: "Köp mjölk och bröd",
-        status: "ej påbörjad"
+        status: "Not started"
       },
       {
         title: "Plugga backend",
         description: "Fixa CRUD-routes",
-        status: "pågående"
+        status: "In progress"
       },
       {
         title: "Skicka in uppgift",
         description: "Lämna in på Canvas",
-        status: "avklarad"
+        status: "Finished"
       }
     ]);
 

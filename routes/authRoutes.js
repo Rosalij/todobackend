@@ -47,7 +47,7 @@ router.put("/:id", async (req, res) => {
     const { id } = req.params;
     const { title, description, status } = req.body;
 
-    const allowedStatus = ["ej påbörjad", "pågående", "avklarad"];
+    const allowedStatus = ["Not started", "In progress", "Finished"];
 
     if (status && !allowedStatus.includes(status)) {
       return res.status(400).json({ error: "Invalid status value" });

@@ -11,8 +11,8 @@ const todoSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    enum: ["ej påbörjad", "pågående", "avklarad"],
-    default: "ej påbörjad"
+    enum: ["Not started", "In progress", "Finished"],
+    default: "Not started"
   }
 });
 
